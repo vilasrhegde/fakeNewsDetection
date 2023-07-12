@@ -34,7 +34,6 @@ prediction = model.predict(x_new)
 print(prediction)
 
 
-![image](https://github.com/vilasrhegde/fakeNewsDetection/assets/85540091/be490bd9-10ae-4346-882e-d51a2e243d79)
 
 
 if(prediction==0):
@@ -42,3 +41,4 @@ if(prediction==0):
 else:
   print("News is Fake")  
 ```
+![image](https://github.com/vilasrhegde/fakeNewsDetection/assets/85540091/be490bd9-10ae-4346-882e-d51a2e243d79)
