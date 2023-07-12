@@ -33,6 +33,10 @@ x_new = x_test[320]
 prediction = model.predict(x_new)
 print(prediction)
 
+
+![image](https://github.com/vilasrhegde/fakeNewsDetection/assets/85540091/be490bd9-10ae-4346-882e-d51a2e243d79)
+
+
 if(prediction==0):
   print("News is Real")
 else:
